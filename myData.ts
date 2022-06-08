@@ -15,7 +15,7 @@ export const wallData = {
         difficulty: 11
     },
     location: {
-        x: "five",
+        x: 5,
         y: 0
     }
 }
