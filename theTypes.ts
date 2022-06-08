@@ -1,26 +1,29 @@
 // for now not using a d.ts file
+// sholuld these just be interfaces?
+// we will find out
 
-type MapLocation = {
+export interface MapLocation {
     x: number,
     y: number
 }
 
-type Profile = {
+export type Profile = {
     attackPoints: number,
     defensePoints: number
 }
 
-type Actor = {
+export type Actor = {
     name: string,
     profile: Profile,
-    location: MapLocation
+    location: MapLocation,
+    isInvincible?: boolean
 }
 
-enum Goodness {
+export enum Goodness {
     Good, Evil, Neutral
 }
 
-type Consumable = {
+export type Consumable = {
     name: string,
     location: MapLocation,
     poisonPoints: number,
