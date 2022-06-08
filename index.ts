@@ -5,7 +5,8 @@ import { frogData, wallData, potionData, carData } from "./myData"
 
 let theFrog = new Player('frog1', frogData.info, frogData.location)
 let theWall = new Element<GameElement>('wall1', wallData.info, wallData.location )
-let thePotion = new Element<GameElement>('potion1', carData.info, potionData.location )
+// let thePotion = new Element<GameElement>('potion1', carData.info, potionData.location )
+let thePotion = new Element<GameElement>('potion1', potionData.info, potionData.location )
 
 function logAll(){
     console.log('Logging everything:____')
