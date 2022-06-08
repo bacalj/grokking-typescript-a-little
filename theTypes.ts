@@ -26,3 +26,6 @@ export interface Obstacle {
     name: string,
     difficulty: number
 }
+
+// TODO how could I use this union for same as in other TODO?
+export type GameElement = Obstacle | Potion
