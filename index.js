@@ -1,15 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-function setUpWorld() {
-    // actually not doing this yet...
-    // I like the sentiment of getting abstract fast
-    // but lets skip to the syntax questions you have for the moment
-}
-function logLocation(location) {
-    console.log(`player is at ${location.x}, ${location.y}`);
-}
-function run() {
-    let theLocation = { x: 10, y: 5 };
-    logLocation(theLocation);
-}
-run();
+const player_1 = require("./player");
+const Frog_1 = require("./Frog");
+// import { Wall } from "./wall"
+// let theWall = new Element()
+let theFrog = new player_1.Player('frog1', Frog_1.frog.info, Frog_1.frog.location);
+theFrog.logStatus();

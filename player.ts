@@ -16,4 +16,19 @@ export class Player implements Actor, MapLocation {
         this.strength = profile.strength
     }
 
+    lateralMove(changeX: number){
+        this.x = this.x + changeX
+    }
+
+    verticalMove(changeY: number){
+        this.y = this.y + changeY
+    }
+
+    changePower(powerValue: number){
+        this.strength = this.strength + powerValue
+    }
+
+    logStatus(){
+        console.log(this)
+    }
 }

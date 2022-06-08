@@ -1,18 +1,9 @@
-import { MapLocation } from './theTypes'
+import { Player } from "./player";
+import { Element } from "./element";
+import { frog } from "./Frog"
+// import { Wall } from "./wall"
 
-function setUpWorld(){
-    // actually not doing this yet...
-    // I like the sentiment of getting abstract fast
-    // but lets skip to the syntax questions you have for the moment
-}
+// let theWall = new Element()
+let theFrog = new Player('frog1', frog.info, frog.location)
 
-function logLocation(location: MapLocation) {
-    console.log(`player is at ${location.x}, ${location.y}`)
-}
-
-function run(){
-    let theLocation = {x: 10, y: 5}
-    logLocation(theLocation)
-}
-
-run()
+theFrog.logStatus()
