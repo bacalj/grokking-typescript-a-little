@@ -15,7 +15,7 @@ export const wallData = {
         difficulty: 11
     },
     location: {
-        x: 5,
+        x: "five",
         y: 0
     }
 }
@@ -33,7 +33,7 @@ export const frogData = {
 
 export const carData = {
     info: {
-        name: 'Froggy',
+        name: 34,
         fuel: 'diesel',
         strength: 10
     },
