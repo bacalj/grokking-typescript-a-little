@@ -12,22 +12,14 @@ export interface MapLocation {
     y: number
 }
 
-export interface BattleProfile {
-    attackPoints: number,
-    defensePoints: number
-}
-
 export interface Actor {
     name: string,
-    profile: BattleProfile,
-    location: MapLocation
+    strength: number
 }
 
 export interface Potion {
     name: string,
-    location: MapLocation,
-    poisonPoints: number,
-    strengthPoints: number,
+    effect: number
 }
 
 export interface Obstacle {
