@@ -2,32 +2,35 @@
 // sholuld these just be interfaces?
 // we will find out
 
+// making this an interface because going to hardcode values in
+// rather than populate a new object instance? I think?
+// no actually making interfaces then going to make classes that 
+// draw from these interfaces
+
 export interface MapLocation {
     x: number,
     y: number
 }
 
-export type Profile = {
+export interface BattleProfile {
     attackPoints: number,
     defensePoints: number
 }
 
-export type Actor = {
+export interface Actor {
     name: string,
-    profile: Profile,
-    location: MapLocation,
-    isInvincible?: boolean
+    profile: BattleProfile,
+    location: MapLocation
 }
 
-export enum Goodness {
-    Good, Evil, Neutral
-}
-
-export type Consumable = {
+export interface Potion {
     name: string,
     location: MapLocation,
     poisonPoints: number,
     strengthPoints: number,
-    goodness: Goodness,
-    specialPower?: string
+}
+
+export interface Obstacle {
+    name: string,
+    difficulty: number
 }
