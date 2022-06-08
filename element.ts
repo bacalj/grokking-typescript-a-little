@@ -1,13 +1,13 @@
 import { MapLocation, Potion, Obstacle } from "./theTypes";
 
-// TODO: how would I guarantee that an element cannot be instantiated unless <T> matches Obstacle, or Potion? How can I access the value of <T> in my constructor or anywhere else?
-export class Element<GameElement> implements MapLocation {
+// TODO: how would I guarantee that an element cannot be instantiated unless <GameElement> matches Obstacle, or Potion? How can I access the value of <GameElement> in my constructor or anywhere else?
+export class Element<GameElemento> implements MapLocation {
     id: string
     x: number
     y: number
-    details: GameElement
+    details: GameElemento
 
-    constructor(id: string, details: GameElement, initialLocation: MapLocation ){
+    constructor(id: string, details: GameElemento, initialLocation: MapLocation ){
         this.id = id
         this.x = initialLocation.x
         this.y = initialLocation.y
