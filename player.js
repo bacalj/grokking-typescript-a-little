@@ -15,7 +15,7 @@ class Player {
     verticalMove(changeY) {
         this.y = this.y + changeY;
     }
-    changePower(powerValue) {
+    powerChange(powerValue) {
         this.strength = this.strength + powerValue;
     }
     logStatus() {

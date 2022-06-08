@@ -1,13 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.wall = void 0;
-exports.wall = {
+exports.potion = void 0;
+exports.potion = {
     info: {
-        name: 'Mr. Wall',
-        difficulty: 11
+        name: 'Super Hop',
+        effect: 5
     },
     location: {
-        x: 5,
-        y: 0,
+        x: 0,
+        y: 10,
     }
 };

@@ -1,13 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.wall = void 0;
-exports.wall = {
+exports.frog = void 0;
+exports.frog = {
     info: {
-        name: 'Mr. Wall',
-        difficulty: 11
+        name: 'Froggy',
+        strength: 10
     },
     location: {
-        x: 5,
+        x: 0,
         y: 0,
     }
 };

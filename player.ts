@@ -24,7 +24,7 @@ export class Player implements Actor, MapLocation {
         this.y = this.y + changeY
     }
 
-    changePower(powerValue: number){
+    powerChange(powerValue: number){
         this.strength = this.strength + powerValue
     }
 
