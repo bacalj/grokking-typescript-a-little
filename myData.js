@@ -14,7 +14,7 @@ exports.potionData = {
 exports.wallData = {
     info: {
         name: 'Mr. Wall',
-        difficulty: 11
+        difficulty: 'bob'
     },
     location: {
         x: 5,

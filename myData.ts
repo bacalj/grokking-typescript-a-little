@@ -12,7 +12,7 @@ export const potionData = {
 export const wallData = {
     info: {
         name: 'Mr. Wall',
-        difficulty: 11
+        difficulty: 'bob'
     },
     location: {
         x: 5,
