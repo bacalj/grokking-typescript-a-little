@@ -16,7 +16,7 @@ export const wallData = {
     },
     location: {
         x: 5,
-        y: 0,
+        y: 0
     }
 }
 
@@ -28,5 +28,17 @@ export const frogData = {
     location: {
         x: 0,
         y:0,
+    }
+}
+
+export const carData = {
+    info: {
+        name: 'Froggy',
+        fuel: 'diesel',
+        strength: 10
+    },
+    location: {
+        x: 0,
+        y: 0,
     }
 }

@@ -1,11 +1,4 @@
 // for now not using a d.ts file
-// sholuld these just be interfaces?
-// we will find out
-
-// making this an interface because going to hardcode values in
-// rather than populate a new object instance? I think?
-// no actually making interfaces then going to make classes that 
-// draw from these interfaces
 
 export interface MapLocation {
     x: number,
@@ -27,5 +20,4 @@ export interface Obstacle {
     difficulty: number
 }
 
-// TODO how could I use this union for same as in other TODO?
 export type GameElement = Obstacle | Potion
